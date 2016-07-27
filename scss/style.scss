@@ -1,0 +1,76 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  background-color: rgb(119, 177, 169);
+}
+
+.content-block {
+  max-width: 500px;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(119, 177, 169);
+}
+
+.content-block h4 {
+  text-align: right;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+
+.bottom-content {
+  margin-bottom: 20px;
+}
+
+.social {
+  list-style: none;
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.social li a {
+  border: 1px solid rgb(119, 177, 169);
+  border-bottom: 3px solid rgb(119, 177, 169);
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(119, 177, 169);
+  color: white;
+  padding-top: 10px;
+  transition-duration: 0.4s;
+}
+
+.social li a:hover {
+  background-color: white;
+  color: rgb(119, 177, 169);
+}
+
+.btn {
+  transition-duration: 0.4s;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.btn-reference {
+  border: 1px solid rgb(119, 177, 169);
+  border-bottom: 3px solid rgb(119, 177, 169);
+  background-color: transparent;
+  color: rgb(119, 177, 169);
+  float: right;
+}
+
+.btn-reference:hover {
+  border: 1px solid rgb(119, 177, 169);
+  border-bottom: 3px solid rgb(119, 177, 169);
+  color: white;
+  background-color: rgb(119, 177, 169);
+}
